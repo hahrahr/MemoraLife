@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MemoraLife"
         tools:targetApi="31">
         <activity
+            android:name=".ui.IntroActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.SplashActivity"
             android:exported="true">
             <intent-filter>
